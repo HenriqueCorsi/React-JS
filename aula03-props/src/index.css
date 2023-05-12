@@ -20,6 +20,13 @@ span{
   font-size: 20px;
 }
 
+input{
+  width: 80%;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  font-size: 20px;
+}
+
 .box-explicacao{
   width: 50%;
   margin: 2rem auto;
@@ -39,4 +46,17 @@ span{
   align-items: center;
   width: 20%;
   margin: auto;
+}
+
+.form-box{
+  width: 30%;
+  margin: 0.5rem auto;
+  padding: 0.5rem;
+  text-align: justify;
+  border-radius: 0.5rem;
+  background-color: #01a2ff;
+}
+
+.input-box{
+  margin: 1rem;
 }
