@@ -37,7 +37,7 @@ input{
 }
 
 .second{
-  background-color: #1df600;
+  background-color: #0c00f6;
 }
 
 .box-info{
@@ -60,3 +60,32 @@ input{
 .input-box{
   margin: 1rem;
 }
+
+.exemplo-quatro{
+  width: 80%;
+  padding: 2rem;
+}
+
+.nav-bar{
+  display: flex;
+  justify-content: space-around;
+  padding: 0.5rem;
+  background-color: #ff0202;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.option{
+  width: 10%;
+  height: 70px;
+  cursor: pointer;
+  transition: 0.5s;
+  border-radius: 0.5rem;
+  background-color: black;
+}
+
+.option:hover{
+  background-color: #fff;
+  color: #000;
+}
+

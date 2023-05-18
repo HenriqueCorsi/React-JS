@@ -1,8 +1,8 @@
-function ExemploTres({inputUm, inputDois, inputTres, inputQuatro}){
+function ExemploTres({inputExp, inputUm, inputDois, inputTres, inputQuatro}){
     return(
         <div>
              <div className="box-explicacao second">
-                <h3>No Exemplo 03 é construído uma Form onde os placeholder são passados através de Props.</h3>
+                <h3>{inputExp}</h3>
             </div>
             <div className="form-box">
                 <form>
