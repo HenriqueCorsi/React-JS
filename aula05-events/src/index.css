@@ -24,7 +24,7 @@ code {
 
 .exemplo-um{
   width: 20%;
-  margin: -2rem auto;
+  margin: 2rem auto;
   padding: 0.5rem;
   border-radius: 0.5rem;
   font-size: 20px;
@@ -41,4 +41,40 @@ code {
 .button-box{
   display: flex;
   justify-content: space-around;
+}
+
+.exemplo-tres{
+  width: 40%;
+  margin: 4rem auto;
+  padding: 0.1rem;
+  border-radius: 0.5rem;
+  background-color: #01fac4;
+  color: #fff;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+input{
+  width: 40%;
+  margin: 0.5rem auto;
+  padding: 0.3rem;
+  font-size: 20px;
+}
+
+.btn-exemplo-tres{
+  width: 50%;
+  margin: 1rem auto;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: 0.5s;
+  font-size: 25px;
+}
+
+.btn-exemplo-tres:hover{
+  scale: 110%;
 }
