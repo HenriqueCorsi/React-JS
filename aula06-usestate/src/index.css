@@ -36,36 +36,31 @@ code {
   background-color: #01ff95;
   border-radius: 0.5rem;
   color: #fff;
+  font-size: 20px;
 }
 
-.exemplos{
-  width: 30%;
-  margin: -2rem auto;
+.exemplo-um{
+  width: 40%;
+  margin: -1.5rem auto;
   padding: 0.5rem;
+  color: #fff;
   border-radius: 0.5rem;
   background-color: #01b3ff;
 }
 
-form{
+.box-btn{
   display: flex;
-  flex-direction: column;
   justify-content: space-around;
-  width: 95%;
 }
 
-input{
-  margin: 0.5rem 0;
+.btn-ex-dois{
   padding: 0.5rem;
-  font-size: 25px;
   border-radius: 0.5rem;
-}
-
-button{
-  width: 50%;
-  margin: auto;
-  padding: 0.5rem;
+  transition: 0.5s;
+  font-weight: 700;
   font-size: 20px;
-  border-radius: 0.5rem;
-  cursor: pointer;
 }
 
+.btn-ex-dois:hover{
+  scale: 110%;
+}

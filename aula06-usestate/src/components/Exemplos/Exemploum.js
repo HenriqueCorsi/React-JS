@@ -1,17 +1,13 @@
-import {usestate} from 'react'
+import {useState, usestae} from "react"
 
-function Exemploum({desc01, desc02, desc03, desc04}){
+function ExemploUm(){
+    const nome = useState("Paulo Henrique");
+
     return(
-        <div className="exemplos">
-           <form action="">
-                <input type="text" placeholder={desc01} />
-                <input type="text" placeholder={desc02} />
-                <input type="text" placeholder={desc03} />
-                <input type="text" placeholder={desc04} />
-                <button>Submit</button>
-            </form>
+        <div className="exemplo-um">
+            <h2>Olá, me chamo {nome}</h2>
         </div>
     )
 }
 
-export default Exemploum;
+export default ExemploUm;
