@@ -64,3 +64,27 @@ code {
 .btn-ex-dois:hover{
   scale: 110%;
 }
+
+.form-exemplo-tres{
+  display: flex;
+  flex-direction: column;
+}
+
+.form-exemplo-tres input{
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  font-size: 20px;
+  border-radius: 0.1rem;
+}
+
+.form-exemplo-tres button{
+  width: 20%;
+  margin: 1rem auto;
+  padding: 1rem;
+  font-size: 20px;
+}
+
+.tabela-exemplo-tres{
+  display: flex;
+  justify-content: space-around;
+}
