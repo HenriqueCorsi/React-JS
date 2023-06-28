@@ -1,4 +1,4 @@
-import {useState, usestae} from "react"
+import {useState} from "react"
 
 function ExemploUm(){
     const nome = useState("Paulo Henrique");
